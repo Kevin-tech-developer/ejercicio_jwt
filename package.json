@@ -16,5 +16,14 @@
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kevin-tech-developer/ejercicio_jwt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kevin-tech-developer/ejercicio_jwt/issues"
+  },
+  "homepage": "https://github.com/Kevin-tech-developer/ejercicio_jwt#readme"
 }

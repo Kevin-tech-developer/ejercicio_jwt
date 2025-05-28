@@ -8,9 +8,15 @@
 <body>
     <h2>Iniciar sesion</h2>
     <input id="username" placeholder="Usuario">
+    <!--EL typo password oculta el texto mientras se escribe-->
     <input id="password" placeholder="Contraseña" type="password" >
-    <hr>
-    <button onclick="verPerfil()" ver perfil protegido></button>
+    <button onclick="login()">Entrar</button>
+    <hr> <!--linea horizontal para separar secciones-->
+
+    <button onclick="verPerfil()">Ver perfil Protegido</button>
+
+    <!--Elemento pre para mostrar el contenido con formato (como texto plano o JSON)-->
+    <!--EL contenido de la respuesta del servidoor aparecera aqui-->
     <pre id="respuesta"></pre>
 
     <script src="cliente.js"></script>
